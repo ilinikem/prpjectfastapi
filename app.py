@@ -25,5 +25,4 @@ async def is_alive_host(hostname):
         return {"key": "invalid_url!"}
 
 
-if __name__ == "__main__":
-    uvicorn.run(app, host="127.0.0.1", port=8001)
+
