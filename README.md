@@ -26,5 +26,8 @@
 - задача на *две звёздочки*: выложить куда-либо (heroku/DigitalOcean/etc) с помощью github-actions/gitlab/jenkins/etc
 
 ---------------------------------------------------------------
+run server:
+uvicorn app:app --host=127.0.0.1 --port=8001 --reload 
+
 heroku:
 link to https://prpjectfastapi.herokuapp.com/
