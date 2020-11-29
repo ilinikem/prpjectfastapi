@@ -29,4 +29,3 @@ def test_down():
     assert response1.json() == {"status": "down"}
 
 
-
